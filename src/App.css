@@ -1,33 +1,321 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bree+Serif|DM+Serif+Display&display=swap');
+
+
+
+/* Header/Navs */ 
+
+.navbar{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: right;
+    font-size: 1em;
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.navbar-text{
+    padding: 0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+.initials-pic{
+    width:2.5em;
+    color:white;
+    margin:0 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+/* Landing Page */ 
+
+.landing-page{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    height: calc(100vh - 100px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.my-pic{
+    width: 280px;
+    padding-bottom: 2em;
+    border-radius:30%;
+    margin:auto;
+ 
+}
+
+.banner-text{
+    background-color: -webkit-linear-gradient(to left, #ffd194, #70e1f5);
+    background-color: linear-gradient(to left, #ffd194, #70e1f5); 
+    border: .4rem  black outset;
+    opacity: .8;
+    width:75%;
+    margin: auto;
+    border-radius:10px;
+}
+
+.banner-text h1{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 66px;
+    font-weight: bold;
+    color:rgb(12, 11, 11);
+    margin-top:5px;
+}
+
+.banner-text p {
+    font-family: 'Bree Serif', serif;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    padding:.5em 1em;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.banner-text hr {
+    border-top:5px dotted rgb(247, 72, 18);
+    width:50%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.hr-nav{
+    border-top:1px inset -webkit-linear-gradient(to left, #ffd194, #70e1f5);
+    margin:auto;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+    width:50%;
+    margin:auto;
+}
+
+.social-links i{
+    color: rgb(19, 18, 18);
+    font-size: 3.5em;
+    padding:5px 8px;
+    margin-bottom:5px;
+}
+
+/* Resume */
+
+.resume{
+    height: 100vh;
+}
+
+
+.pdf-file{
+    width:100vw;
+    height: 100vh;
+}
+
+/* PROJECTS */
+.projects-container{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: calc(100vh - 100px);
+}
+
+.card-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin:3% 2px 20px 2px;
+}
+
+.projects-text{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    padding:4% 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hr-projects0{
+    width:20%;
+    margin: auto;
+    margin-top:15px;
+    border: 2px rgb(243, 165, 165) inset;
+}
+
+.hr-projects{
+    width:25%;
+    margin: auto;
+    margin-top:15px;
+    border: 2px rgb(231, 151, 151) inset;
+}
+
+.card-image{
+    width:100%;
+}
+
+/* ABOUT ME */
+
+.aboutMe-container{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.name{
+    text-align: center;
+    margin: 50px auto;
+    margin:auto 10%;
+
+}
+
+.aboutMe-details{
+    display:flex;
+    flex-direction: column;
+    margin:auto 10%;
+ 
+}
+
+
+.aboutMe-pic{
+    width:180px;
+    margin:auto 10%;
+
+}
+
+.card-container-aboutMe{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin:10px 2px;
+} 
+
+.carousel-aboutme{
+    width:80%;
+    height: 10%;
+    margin:0 10% 20px 10%;
+
+}
+
+.slide-pics{
+    width:150px;
+}
+
+.aboutMe-2{
+    margin:20px 0;
+}
+
+.projects-container-abtme{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+.excess-luggage-pic{
+    width:65%;
+    border:4px outset rgb(248, 242, 242);
+    margin:auto;
+    margin-bottom: 130px;
+
+}
+
+
+
+
+/* Footer */
+.footer{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Bree Serif', serif;
+    color: rgb(65, 60, 60, .8);
+
+}
+
+.social-links-footer{
+    display: flex;
+    justify-content: center;
+    width:50%;
+    margin:0 auto;
+}
+
+.social-links-footer i{
+    color: rgb(19, 18, 18,0.8);
+    padding:2px 4px;
+}
+
+.footer h4{
+    font-size:18px;
+    margin:0;
+}
+
+.footer p{
+    margin:0;
+    font-size: 12px;
+}
+
+.loc{
+    border-top:2px solid rgb(0, 0, 0,.5);
+    padding-top:10px;
+}
+
+
+
+/* Contact Page */
+
+.contact-container{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+
+    background: rgb(205, 245, 204);
+}
+
+.form-grp{
+    display: flex;
+}
+
+.form-grp1{
+    flex:1;
+}
+
+.form-grp2{
+    flex:7;
+}
+
+.my-map{
+    flex:2;
+}
+
+.contact-form{
+    flex:1;
+    height:100vh;
+    padding: 20px;
+}
+
+.contact-form h1{
+    text-align: center;
+    padding-bottom:5px;
+    border-bottom: 2px solid rgb(170, 241, 214);
+    margin-bottom:15px;
+}
+
+.contact-socials{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-socials a{
+    color:black;
+}
+
+.contact-socials i{
+    color: rgb(70, 204, 142);
+    font-size: 2.5em;
+    padding:5px 8px;
+    margin-bottom:5px;
+    vertical-align: middle;
 }
