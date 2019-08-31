@@ -18,9 +18,6 @@
     padding: 0 5px;
 }
 
-
-
-
 .initials-pic{
     width:2.5em;
     color:white;
@@ -127,22 +124,20 @@
 .projects-text{
     font-family: 'Bree Serif', serif;
     text-align: center;
-    padding:4% 0 10px 0;
+    padding:3% 0 6px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .hr-projects0{
     width:20%;
-    margin: auto;
-    margin-top:15px;
+    margin-top:10px;
     border: 2px rgb(243, 165, 165) inset;
 }
 
 .hr-projects{
     width:25%;
-    margin: auto;
-    margin-top:15px;
+    margin: 10px auto 50px auto;
     border: 2px rgb(231, 151, 151) inset;
 }
 
@@ -172,6 +167,13 @@
  
 }
 
+.aboutMe-text{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 17px;
+    padding:20px 0;
+    text-align: justify;
+    word-spacing: 2px;
+}
 
 .aboutMe-pic{
     width:180px;
@@ -190,6 +192,7 @@
     width:80%;
     height: 10%;
     margin:0 10% 20px 10%;
+    padding-top:10px;
 
 }
 
@@ -200,6 +203,8 @@
 .aboutMe-2{
     margin:20px 0;
 }
+
+
 
 .projects-container-abtme{
     background: #70e1f5;  /* fallback for old browsers */
@@ -213,10 +218,16 @@
     width:65%;
     border:4px outset rgb(248, 242, 242);
     margin:auto;
-    margin-bottom: 130px;
+    margin-bottom:8px;
+   
 
 }
 
+.signature-aboutme{
+    width: 15%;
+    margin: 0 auto;
+    margin-bottom:110px;
+}
 
 
 

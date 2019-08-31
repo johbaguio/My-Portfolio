@@ -20,7 +20,7 @@ const Header = () => {
                     </Nav>
                     <Nav>
                         <NavLink to="/Contact" className='navbar-text'>Contact</NavLink>
-                        <NavLink eventKey={2} href="#memes" className='navbar-text'>Interests</NavLink>
+                        <NavLink to="/" className='navbar-text'>Home</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
