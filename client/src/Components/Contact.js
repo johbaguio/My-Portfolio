@@ -6,7 +6,6 @@ import Footer from './Footer';
 
 
 class Contact extends Component {
-
         state = {
             name: '',
             email: '',
@@ -14,28 +13,28 @@ class Contact extends Component {
         }
 
     
-    handleSubmit = e => {
-        e.preventDefault();
-        this.setState({
-            name: '',
-            email: '',
-            message: `Thank you for subscribing to our newsletter ${this.state.name}!`
-        });
-        const config = {
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        };
-        const formData = {
-            name: this.state.name,
-            email: this.state.email
-        };
-        console.log('formData', formData);
+    // handleSubmit = e => {
+    //     e.preventDefault();
+    //     this.setState({
+    //         name: '',
+    //         email: '',
+    //         message: `Thank you for subscribing to our newsletter ${this.state.name}!`
+    //     });
+    //     const config = {
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         }
+    //     };
+    //     const formData = {
+    //         name: this.state.name,
+    //         email: this.state.email
+    //     };
+    //     console.log('formData', formData);
 
-        axios
-            .post('/api/pages/subscribe', formData, config)
-            .then(msg => console.log(msg));
-    };
+    //     axios
+    //         .post('/api/pages/subscribe', formData, config)
+    //         .then(msg => console.log(msg));
+    // };
 
     handleChange = e => {
         console.log(e.target.value);
