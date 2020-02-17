@@ -99,7 +99,7 @@ body {
         margin: 0 auto; }
         @media (max-width: 768px) {
           body .category-wrapper .header-container .category-header {
-            width: 40%; } }
+            width: 55%; } }
         body .category-wrapper .header-container .category-header .arrow-down, body .category-wrapper .header-container .category-header .arrow-up {
           -ms-flex-item-align: center;
           -ms-grid-row-align: center;
@@ -158,7 +158,7 @@ body {
         justify-content: center; }
         body .education-page .education-details .education .date-place p {
           padding: 0 10px;
-          color: rgba(255, 255, 255, 0.5); }
+          color: rgba(255, 255, 255, 0.5) !important; }
       body .education-page .education-details .education .divider {
         margin-top: 2%;
         color: rgba(250, 237, 38, 0.5);
@@ -193,7 +193,7 @@ body {
         justify-content: center; }
         body .experience-page .experience-details .experience-list .date-place p {
           padding: 0 10px;
-          color: rgba(255, 255, 255, 0.5); }
+          color: rgba(255, 255, 255, 0.5) !important; }
       body .experience-page .experience-details .experience-list .divider {
         margin-top: 2%;
         color: rgba(250, 237, 38, 0.5);
@@ -267,7 +267,7 @@ body {
       color: white; }
       @media (max-width: 768px) {
         body .contact-page .contact-address h3 {
-          width: 45%;
+          width: 48%;
           margin: 0 auto 30px auto; } }
     body .contact-page .contact-address p, body .contact-page .contact-address a {
       font-size: 14px;

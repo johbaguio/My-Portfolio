@@ -22,8 +22,9 @@
             border-top:1px solid rgba(250, 237, 38,.5);
             border-bottom:1px solid rgba(250, 237, 38,.5);
             margin:0 auto;
+
             @include md{
-                width:40%;
+                width:55%;
             }
 
             .arrow-down, .arrow-up{
