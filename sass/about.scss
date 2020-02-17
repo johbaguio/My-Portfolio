@@ -10,8 +10,9 @@
         flex-direction: column;
         justify-content: center;
         margin-top:5%;
+
         @include md{
-            margin-top:10%;
+            margin:15% 0;
         }
 
         .category-header{

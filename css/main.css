@@ -84,7 +84,7 @@ body {
       margin-top: 5%; }
       @media (max-width: 768px) {
         body .category-wrapper .header-container {
-          margin-top: 10%; } }
+          margin: 15% 0; } }
       body .category-wrapper .header-container .category-header {
         display: -webkit-box;
         display: -ms-flexbox;
