@@ -3,6 +3,10 @@
     background: black;  /* fallback for old browsers */
     text-align: center;
 
+    @include md{
+        margin-bottom:15%;
+    }
+
     .my-pic{
         width: 200px;
         border:2px rgba(250, 237, 38, .5) solid;
