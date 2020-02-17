@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Johanna Baguio</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body>
+    <div class='page-wrapper '>
+        <div class='landing-page '>
+            <img src='../images/Johanna1.jpg' alt='Johanna Baguio' class='my-pic animated fadeIn slower ' />
+
+            <div class='banner-text'>
+
+                <h1 class='animated fadeIn slower delay-1s'> Johanna Baguio</h1>
+                <p class='job-title animated fadeIn slower delay-1s'>Front-end Web Developer</p>
+                <hr class='animated fadeInLeft slow delay-1s' />
+                <p class='animated fadeIn slower delay-1s'> HTML ⏐ CSS ⏐ JavaScript ⏐ React ⏐ NodeJs ⏐ Express ⏐ MySql
+                </p>
+
+                <div class='social-links animated fadeIn slower delay-1s'>
+                    <a href='https://www.linkedin.com/in/johanna-may-baguio-a8aa90174/' rel='noopener noreferrer'
+                        target='_blank'>
+                        <i class="fa fa-linkedin-square" aria-hidden='true'> </i>
+                    </a>
+                    <a href='https://github.com/johbaguio' rel='noopener noreferrer' target='_blank'>
+                        <i class="fa fa-github-square" aria-hidden='true'> </i>
+                    </a>
+                    <a href='https://www.instagram.com/johbaguio/' rel='noopener noreferrer' target='_blank'>
+                        <i class="fa fa-instagram" aria-hidden='true'> </i>
+                    </a>
+                    <a href='https://www.facebook.com/johbaguio' rel='noopener noreferrer' target='_blank'>
+                        <i class="fa fa-facebook-square" aria-hidden='true'> </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="category-wrapper about-page animated fadeIn slower delay-2s">
+            <div class="header-container about-info">
+                <div class='category-header about-heading'>
+                    <h3> About </h3>
+                    <p class='arrow-down about-arrow-down' onclick="showAboutDetails(0)">
+                        <i class="fa fa-chevron-down" aria-hidden='true'> </i>
+                    </p>
+                    <p class='arrow-up about-arrow-up hide' onclick="hideAboutDetails(0)">
+                        <i class="fa fa-chevron-up" aria-hidden='true'> </i>
+                    </p>
+                </div>
+
+                <div class=' details about-details hide'>
+                    <p>
+                        I’m a 28 year old web developer with a <i> Bachelor’s degree in Informations and Communications
+                            Technology </i>. I recently earned my post - graduate units in programming at <i> Hack Your
+                            Future </i>where I was able to hone my skills in programming using HTML5, CSS, Sass, React,
+                        JavaScript, Node.js and MySQL. Throughout the entire program, I was able to create some
+                        applications/projects that helped me better the skills I have acquired in the entire program.
+                        You can jump off and see the projects I've made
+                        <a href='#projects' className='about-projects' activeClassName='current'> here</a>.
+                    </p>
+
+                    <p>
+                        Aside from navigating the cyber world, I also love exploring different places in the world. I
+                        love immersing myself in the diversities found in the country’s structures, history, and
+                        culture. In every place I’ve set my foot into, I made sure to take a piece of that place with
+                        me. These fragments of memories are collectively known as <b><i> my excess luggage </i></b>.
+                        Hop on and take a peek inside! ✈ </p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class='category-wrapper education-page animated fadeIn slower delay-2s'>
+            <div class=" header-container education-info">
+                <div class='category-header education-heading'>
+                    <h3> Education </h3>
+                    <p class='arrow-down education-arrow-down' onclick="showAboutDetails(1)">
+                        <i class="fa fa-chevron-down" aria-hidden='true'> </i>
+                    </p>
+                    <p class='arrow-up education-arrow-up hide' onclick="hideAboutDetails(1)">
+                        <i class="fa fa-chevron-up" aria-hidden='true'> </i>
+                    </p>
+                </div>
+                <div class='details education-details hide'>
+                    <div class='education'>
+                        <h3> Dansk 2 </h3>
+                        <h4> CLAVIS sprog & kompetence </h4>
+                        <div class='date-place'>
+                            <p>
+                                02/2019 – Present
+                            </p>
+                            <p>
+                                Copenhagen, Denmark
+                            </p>
+                        </div>
+                        <p>
+                            <i class=" divider fa fa-ellipsis-h"></i>
+                        </p>
+                    </div>
+                    <div class='education'>
+                        <h3> Full Stack Web Development </h3>
+                        <h4> Hack Your Future </h4>
+                        <div class='date-place'>
+                            <p>
+                                08/2018 – 06/2019
+                            </p>
+                            <p>
+                                Copenhagen, Denmark
+                            </p>
+                        </div>
+                        <p>
+                            <i class=" divider fa fa-ellipsis-h"></i>
+                        </p>
+                    </div>
+
+                    <div class='education'>
+                        <h3> Bachelor of Science in Information and Communications Technology</h3>
+                        <h4> University of San Carlos </h4>
+                        <div class='date-place'>
+                            <p>
+                                06/2008 – 03/2013
+                            </p>
+                            <p>
+                                Cebu, Philippines
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class='category-wrapper experience-page animated fadeIn slower delay-2s'>
+            <div class=" header-container experience-info">
+                <div class='category-header experience-heading'>
+                    <h3> Experience </h3>
+                    <p class='arrow-down experience-arrow-down' onclick="showAboutDetails(2)">
+                        <i class="fa fa-chevron-down" aria-hidden='true'> </i>
+                    </p>
+                    <p class='arrow-up experience-arrow-up hide' onclick="hideAboutDetails(2)">
+                        <i class="fa fa-chevron-up" aria-hidden='true'> </i>
+                    </p>
+                </div>
+                <div class='details experience-details hide'>
+                    <div class='experience-list'>
+                        <h3> Frontend Developer</h3>
+                        <h4> SUBIT </h4>
+                        <div class='date-place'>
+                            <p>
+                                11/2019 – Present
+                            </p>
+                            <p>
+                                Valby, Denmark
+                            </p>
+                        </div>
+                        <p>
+                            <i class=" divider fa fa-ellipsis-h"></i>
+                        </p>
+                    </div>
+                    <div class='experience-list'>
+                        <h3> Au Pair </h3>
+                        <h4> Cultural Exchange Program </h4>
+                        <div class='date-place'>
+                            <p>
+                                06/2018 – Present
+                            </p>
+                            <p>
+                                Copenhagen, Denmark
+                            </p>
+                        </div>
+                        <p>
+                            <i class=" divider fa fa-ellipsis-h"></i>
+                        </p>
+                    </div>
+                    <div class='experience-list'>
+                        <h3> Customer/Technical Service Representative </h3>
+                        <h4> Convergys Philippines Incorporated </h4>
+                        <div class='date-place'>
+                            <p>
+                                07/2013 – 01/2016
+                            </p>
+                            <p>
+                                Cebu, Philippines
+                        </div>
+                        <p>
+                            <i class=" divider fa fa-ellipsis-h"></i>
+                        </p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id='projects' class='projects-page animated fadeIn slower delay-2s'>
+            <div class='projects-title'>
+                <h3>PROJECTS</h3>
+            </div>
+            <div class='project-list'>
+                <div class='project-info'>
+
+                    <img src='../images/currency-converter.png' class='project-img' alt='Currency Converter app screenshot' />
+                    <p class='project-title'> Currency Converter </p>
+                </div>
+                <div class='project-info'>
+                    <a href='https://johbaguio.github.io/hyf-quiz/? ' target='_blank' rel="noopener noreferrer">
+                        <img src='../images/hyf-quiz.png' class='project-img' alt='HYF quiz app screenshot' />
+                        <p class='project-title'> HYF Quiz </p>
+                    </a>
+                </div>
+                <div class='project-info'>
+                    <a href='https://johbaguio.github.io/hyf-christmas/' target='_blank' rel="noopener noreferrer">
+                        <img src='../images/memory-game.png' class='project-img' alt='Memory game screenshot' />
+                        <p class='project-title'> Memory Game </p>
+                    </a>
+                </div>
+                <div class='project-info'>
+                    <a href='https://daily-dose-of-positivity.netlify.com/' target='_blank' rel="noopener noreferrer">
+                        <img src='../images/quotes-app.png' class='project-img' alt='Quotes Generator app screenshot' />
+                        <p class='project-title'> Quotes Generator </p>
+                    </a>
+                </div>
+                <div class='project-info'>
+                    <a href='https://johbaguio.github.io/hyf-christmas/' target='_blank' rel="noopener noreferrer">
+                        <img src='../images/excess-luggage.png' class='project-img' alt='Personal blog app screenshot' />
+                        <p class='project-title'> Excess Luggage </p>
+                    </a>
+                </div>
+                <div class='project-info'>
+                    <a href='https://subit-site.netlify.com/index.html' target='_blank' rel="noopener noreferrer">
+                        <img src='../images/subit.png' class='project-img' alt='Subit site app screenshot' />
+                        <p class='project-title'> Subit website </p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class='contact-page animated fadeIn slower delay-2s'>
+            <div class='contact-address'>
+                <h3> Where to find me</h3>
+                <p>Amsterdamvej 14, Copenhagen S,Denmark </p>
+                <a href='mailto:johbaguio@gmail.com' target='_blank' rel='noopener noreferrer' class='contact-option mail'>
+                    johbaguio@gmail.com
+                </a>
+                <p class='contact-option'> +45 29642002</p>
+            </div>
+
+            <div class='contact-socials'>
+                <a href='https://www.linkedin.com/in/johanna-may-baguio-a8aa90174/' class='link' rel='noopener noreferrer'
+                    target='_blank'>
+                    Let's connect<i class="fa fa-linkedin-square icon" aria-hidden='true'> </i>
+                </a> <br />
+                <a href='https://www.instagram.com/johbaguio/' class='link' rel='noopener noreferrer' target='_blank'>
+                    Follow me<i class="fa fa-instagram icon" aria-hidden='true'> </i>
+                </a> <br />
+                <a href='https://www.facebook.com/johbaguio' class='link' rel='noopener noreferrer' target='_blank'>
+                    Add me up<i class="fa fa-facebook-square icon" aria-hidden='true'></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="../javascript/index.js"></script>
+
+</body>
+
+</html>

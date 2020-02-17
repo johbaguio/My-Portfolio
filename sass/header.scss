@@ -1,0 +1,78 @@
+
+.landing-page{
+    background: black;  /* fallback for old browsers */
+    text-align: center;
+
+    .my-pic{
+        width: 200px;
+        border:2px rgba(250, 237, 38, .5) solid;
+        padding:10px;
+        border-radius:2%;
+        margin:10% auto 0 auto;
+
+        @include md {
+            margin:15% auto 0 auto;
+        }
+    }
+    
+    .banner-text{
+        width:40%;
+        margin: 2% auto;
+        color:white;
+
+        @include md {
+            width:90%;
+            margin:5% auto 0 auto;
+        }
+
+       h1{  
+            color:#FAED26;
+            font-size: 30px;
+            font-weight: bold;
+            padding:5px 0 0 0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin:0;
+
+            @include md{
+            font-size: 20px;
+            }
+           
+        }
+
+        .job-title{
+            font-size: 16px;
+            margin: 0 0 10px 0;
+        }
+        
+       p {
+         
+            font-size: 14px;
+            padding:.2em 1em;
+          }
+        
+       hr {
+            margin:1px auto;
+        }
+        
+        .hr-nav{
+            border-top:2px inset -webkit-linear-gradient(to left, #ffd194, #70e1f5) !important;
+            margin:auto;
+        }
+        
+        .social-links{
+            display: flex;
+            justify-content: space-evenly;
+            width:40%;
+            margin:auto;
+        }
+        
+        .social-links i{
+            color: white;
+            font-size: 2.5em;
+            padding:8px;  
+        }
+    }
+    
+    
+}

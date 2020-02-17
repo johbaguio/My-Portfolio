@@ -1,0 +1,71 @@
+.contact-page{
+text-align: center;
+width:100%;
+
+    .contact-address{
+      
+
+        h3{
+            width:15%;
+            text-transform: uppercase;
+            border-top:1px solid rgba(250, 237, 38,.5);
+            border-bottom:1px solid rgba(250, 237, 38,.5);
+            margin:0 auto 20px auto;
+            padding:15px;
+            color:white;
+
+            @include md{
+                width:35%;
+            }
+        }
+
+        p,a{
+            font-size: 14px;
+            letter-spacing: 1.5px;
+            color:rgba(250, 237, 38,.5);
+        }
+
+        .mail{
+             
+            &:hover{
+                font-size:15px;
+                color:#FAED26;
+            }
+        }
+
+    }
+
+    .contact-socials{
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+    
+     
+        
+        .link{
+            display: flex;
+            padding:2% 3%;
+            color:white;
+            text-transform: uppercase;
+
+          
+            &:hover{
+                font-size:15px;
+            }
+
+           
+            i.icon{
+                padding:0 0 0 7%;
+                color:#FAED26;
+                font-size:18px;
+                vertical-align: middle;
+
+                
+            }
+        }
+        
+
+
+    }
+
+}

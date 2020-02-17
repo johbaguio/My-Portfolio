@@ -1,0 +1,61 @@
+.projects-page{
+    margin:5% 0;
+    text-align: center;
+
+    @include md{
+        margin: 10% 0;
+    }
+
+    .projects-title{
+        
+        h3{
+            color:#FAED26;
+            letter-spacing: 2px;
+
+            @include md{
+                margin:0 0 5% 0;
+            }
+            
+        }
+    }
+
+    .project-list{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin:3.5% 20%;
+        cursor: pointer;
+
+        @include md{
+            margin:6% auto;
+        }
+
+
+        .project-info{
+            display: flex;
+            flex-direction: column;
+            margin:2% 0;
+            opacity: .5;
+
+            @include md{
+                margin:2% 0 3% 0;
+            }
+
+            &:hover{
+                opacity: 1;
+            }
+
+            .project-img{
+             width:300px;
+            }
+
+            p.project-title{
+                color:#FAED26;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 14px;
+            }
+        }
+    }
+}

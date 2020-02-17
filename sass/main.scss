@@ -1,0 +1,32 @@
+@import "mixin";
+@import "variables";
+
+$colors: (main:#FAED26,
+text: white,
+background:black);
+
+
+html {
+    background-color:black;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: .9rem; 
+
+    a{
+        text-decoration: none;
+    }
+
+    @import "header";
+    @import "about";
+    @import "education";
+    @import "experience";
+    @import "projects";
+    @import "contact";
+
+
+    
+    
+}

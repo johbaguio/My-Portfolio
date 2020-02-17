@@ -1,0 +1,43 @@
+.experience-page{
+
+    .experience-details{
+        display: flex;
+        flex-direction: column;
+        line-height: 150%;
+        margin: 1.5% auto;
+        width:40%;
+
+        @include md{
+            width:95%;
+        }
+
+        .experience-list{
+            margin: 1% auto;
+
+            h3, h4, p{
+                margin:0;
+                letter-spacing: 1px;
+            }
+            .date-place{
+                display: flex;
+                justify-content: center;
+    
+                p{
+                    padding: 0 10px;
+                    color: rgba(255, 255, 255,.5);
+                }
+            }
+
+            .divider{
+                margin-top: 2%;
+                color: rgba(250, 237, 38,.5);
+                font-size:1.5rem;
+            }
+        }
+        
+    }
+
+    .hide{
+        display: none;
+    }
+}
