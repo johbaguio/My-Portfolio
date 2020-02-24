@@ -129,8 +129,6 @@ body {
       height: 0; }
     body .category-wrapper a {
       text-decoration: none; }
-    body .category-wrapper .fadeOut {
-      height: 0; }
   body .education-page .education-details {
     display: -webkit-box;
     display: -ms-flexbox;

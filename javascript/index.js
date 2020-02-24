@@ -15,7 +15,14 @@ function showAboutDetails(i) {
 
 function hideAboutDetails(i) {
     details[i].classList.remove('fadeIn');
-    details[i].classList.add('fadeOut', 'fast', 'hide');
+    details[i].classList.add('fadeOut', 'fast');
     arrowUp[i].classList.add('hide');
     arrowDown[i].classList.remove('hide');
+
+    setTimeout(
+        function () {
+            details[i].classList.add('hide');
+
+        }, 1200);
+
 }
