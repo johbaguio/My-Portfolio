@@ -100,7 +100,8 @@ body {
         @media (max-width: 768px) {
           body .category-wrapper .header-container .category-header {
             width: 55%; } }
-        body .category-wrapper .header-container .category-header .arrow-down, body .category-wrapper .header-container .category-header .arrow-up {
+        body .category-wrapper .header-container .category-header .arrow-down,
+        body .category-wrapper .header-container .category-header .arrow-up {
           -ms-flex-item-align: center;
           -ms-grid-row-align: center;
           align-self: center;

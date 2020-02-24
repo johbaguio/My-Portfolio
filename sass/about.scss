@@ -1,79 +1,80 @@
-
-.category-wrapper{
+.category-wrapper {
     background: black;
     color: white;
     text-align: center;
 
 
-    .header-container{
+    .header-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top:5%;
+        margin-top: 5%;
 
-        @include md{
-            margin:15% 0;
+        @include md {
+            margin: 15% 0;
         }
 
-        .category-header{
+        .category-header {
             display: flex;
             justify-content: center;
-            color:white;
-            width:15%;
-            border-top:1px solid rgba(250, 237, 38,.5);
-            border-bottom:1px solid rgba(250, 237, 38,.5);
-            margin:0 auto;
+            color: white;
+            width: 15%;
+            border-top: 1px solid rgba(250, 237, 38, .5);
+            border-bottom: 1px solid rgba(250, 237, 38, .5);
+            margin: 0 auto;
 
-            @include md{
-                width:55%;
+            @include md {
+                width: 55%;
             }
 
-            .arrow-down, .arrow-up{
+            .arrow-down,
+            .arrow-up {
                 align-self: center;
-                padding-left:10%;
+                padding-left: 10%;
                 cursor: pointer;
             }
 
-            h3{
-               text-transform: uppercase;
-               letter-spacing: 2px;
+            h3 {
+                text-transform: uppercase;
+                letter-spacing: 2px;
             }
 
-            p{
-                color:#FAED26;
+            p {
+                color: #FAED26;
             }
 
         }
-        .about-details{
-            width:45%;
-            color:white;
-            margin:10px auto 0 auto;
+
+        .about-details {
+            width: 45%;
+            color: white;
+            margin: 10px auto 0 auto;
             line-height: 160%;
 
-            @include md{
-                width:90%;
+            @include md {
+                width: 90%;
             }
 
-            a{
+            a {
                 text-decoration: none;
-                color:white;
+                color: white;
             }
 
         }
     }
 
-    .hide{
+    .hide {
         display: none;
-        width:0;
-        height:0;
+        width: 0;
+        height: 0;
     }
 
-    a{
+    a {
         text-decoration: none;
     }
 
-    .fadeOut{
-       height:0;
+    .fadeOut {
+        height: 0;
     }
 
 }
