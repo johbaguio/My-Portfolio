@@ -268,7 +268,8 @@ body {
         body .contact-page .contact-address h3 {
           width: 48%;
           margin: 0 auto 30px auto; } }
-    body .contact-page .contact-address p, body .contact-page .contact-address a {
+    body .contact-page .contact-address p,
+    body .contact-page .contact-address a {
       font-size: 14px;
       letter-spacing: 1.5px;
       color: rgba(250, 237, 38, 0.5); }
